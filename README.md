@@ -84,7 +84,8 @@ cd tempo-marica/backend
 **Exemplo de variáveis de ambiente:**
 ```MONGO_URI=mongodb://seu-banco
 SECRET=sua-chave-secreta
-PORT=porta-do-serviço```
+PORT=porta-do-serviço
+```
 
 **Inicie os Microsserviços**
 
@@ -94,21 +95,28 @@ PORT=porta-do-serviço```
 
 **Clone o Repositório:
 
-git clone https://github.com/seu-usuario/tempo-marica.git
+```git clone https://github.com/seu-usuario/tempo-marica.git
 cd tempo-marica/frontend
-**Abra o Frontend: Use qualquer servidor local (por exemplo, Live Server no VSCode) para rodar a aplicação. Certifique-se de que os microsserviços estejam rodando antes de acessar funcionalidades como notícias e boletins.
+```
+
+**Abra o Frontend** Use qualquer servidor local (por exemplo, Live Server no VSCode) para rodar a aplicação. Certifique-se de que os microsserviços estejam rodando antes de acessar funcionalidades como notícias e boletins.
 
 **Execução**
-**Inicie o Backend
+**Inicie o Backend**
 Navegue para o diretório do backend:
-cd backend
+```cd backend
 npm start
-**Certifique-se de que cada microsserviço está rodando corretamente nas portas especificadas.
-Inicie o Frontend
+```
+Certifique-se de que cada microsserviço está rodando corretamente nas portas especificadas.
+
+**Inicie o Frontend**
 Utilize um servidor local ou abra o arquivo index.html diretamente em um navegador.
-**Exemplo com Live Server:
-live-server ./frontend/src
-**APIs Disponíveis
+**Exemplo com Live Server**
+
+```live-server ./frontend/src
+```
+---
+**APIs Disponíveis**
 AuthService
 POST /auth/login: Realiza login e retorna um token JWT.
 POST /auth/register: Registra um novo usuário.
@@ -120,5 +128,5 @@ BoletinsService
 GET /boletins/latest: Retorna o boletim mais recente.
 POST /boletins: Cria um novo boletim com upload de PDF (requer autenticação).
 DELETE /boletins/:id: Exclui um boletim (requer autenticação).
-Licença
-Este projeto está sob a licença MIT. Sinta-se à vontade para usar, modificar e distribuir
+---
+
