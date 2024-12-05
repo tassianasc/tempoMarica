@@ -113,20 +113,24 @@ Certifique-se de que cada microsserviço está rodando corretamente nas portas e
 Utilize um servidor local ou abra o arquivo index.html diretamente em um navegador.
 **Exemplo com Live Server**
 
-```live-server ./frontend/src
-```
+```live-server ./frontend/src```
+
 ---
 **APIs Disponíveis**
-AuthService
-POST /auth/login: Realiza login e retorna um token JWT.
-POST /auth/register: Registra um novo usuário.
-NoticiasService
-GET /noticias: Lista todas as notícias.
-POST /noticias: Cria uma notícia (requer autenticação).
-DELETE /noticias/:id: Exclui uma notícia (requer autenticação).
-BoletinsService
-GET /boletins/latest: Retorna o boletim mais recente.
-POST /boletins: Cria um novo boletim com upload de PDF (requer autenticação).
-DELETE /boletins/:id: Exclui um boletim (requer autenticação).
+**AuthService**
+
+-+POST /auth/login: Realiza login e retorna um token JWT.
+-+POST /auth/register: Registra um novo usuário.
+
+**NoticiasService**
+-+GET /noticias: Lista todas as notícias.
+-+POST /noticias: Cria uma notícia (requer autenticação).
+-+DELETE /noticias/:id: Exclui uma notícia (requer autenticação).
+
+**BoletinsService**
+-+GET /boletins/latest: Retorna o boletim mais recente.
+-+POST /boletins: Cria um novo boletim com upload de PDF (requer autenticação).
+-+DELETE /boletins/:id: Exclui um boletim (requer autenticação).
+
 ---
 
