@@ -61,7 +61,7 @@ Tempo-Maricá/
 │   │   ├── styles/
 │   │   └── index.html
 └── README.md
-
+---
 
 
 ## **Instalação**
