@@ -93,7 +93,7 @@ PORT=porta-do-serviço
 
 **Frontend**
 
-**Clone o Repositório:
+Clone o Repositório:
 
 ```git clone https://github.com/seu-usuario/tempo-marica.git
 cd tempo-marica/frontend
