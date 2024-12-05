@@ -41,7 +41,6 @@ Projeto para centralizar informações meteorológicas, notícias e boletins da 
   - Postman para testes manuais das rotas.
 
 ---
-
 ## **Estrutura do Projeto**
 
 ```plaintext
@@ -62,6 +61,7 @@ Tempo-Maricá/
 │   │   ├── styles/
 │   │   └── index.html
 └── README.md
+
 
 ## **Instalação**
 
