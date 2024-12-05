@@ -62,3 +62,13 @@ Tempo-Maricá/
 │   │   ├── styles/
 │   │   └── index.html
 └── README.md
+
+## **Instalação**
+
+### **Backend**
+
+#### **Clone o Repositório**
+```bash
+git clone https://github.com/seu-usuario/tempo-marica.git
+cd tempo-marica/backend
+
