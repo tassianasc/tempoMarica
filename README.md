@@ -119,18 +119,18 @@ Utilize um servidor local ou abra o arquivo index.html diretamente em um navegad
 **APIs Disponíveis**
 **AuthService**
 
--+POST /auth/login: Realiza login e retorna um token JWT.
--+POST /auth/register: Registra um novo usuário.
+1.POST /auth/login: Realiza login e retorna um token JWT.
+2.POST /auth/register: Registra um novo usuário.
 
 **NoticiasService**
--+GET /noticias: Lista todas as notícias.
--+POST /noticias: Cria uma notícia (requer autenticação).
--+DELETE /noticias/:id: Exclui uma notícia (requer autenticação).
+3.GET /noticias: Lista todas as notícias.
+4.POST /noticias: Cria uma notícia (requer autenticação).
+5.DELETE /noticias/:id: Exclui uma notícia (requer autenticação).
 
 **BoletinsService**
--+GET /boletins/latest: Retorna o boletim mais recente.
--+POST /boletins: Cria um novo boletim com upload de PDF (requer autenticação).
--+DELETE /boletins/:id: Exclui um boletim (requer autenticação).
+6.GET /boletins/latest: Retorna o boletim mais recente.
+7.POST /boletins: Cria um novo boletim com upload de PDF (requer autenticação).
+8.DELETE /boletins/:id: Exclui um boletim (requer autenticação).
 
 ---
 
