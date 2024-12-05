@@ -42,7 +42,7 @@ Projeto para centralizar informações meteorológicas, notícias e boletins da 
 
 ---
 
-## **Estrutura do Projeto**
+## **Estrutura do Projeto**##
 
 ```plaintext
 Tempo-Maricá/
