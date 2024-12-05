@@ -63,23 +63,12 @@ Tempo-Maricá/
 │   │   └── index.html
 └── README.md
 
-Instalação
-Backend
-Clone o Repositório
-git clone https://github.com/seu-usuario/tempo-marica.git
-cd tempo-marica/backend
-Instale as Dependências
-npm install
-Configuração
-Crie um arquivo .env em cada microsserviço:
+## **Instalação**
 
-.env.auth
-.env.boletins
-.env.noticias
-Insira as variáveis de ambiente correspondentes, como:
-MONGO_URI=mongodb://seu-banco
-SECRET=sua-chave-secreta
-PORT=porta-do-serviço
+### **Backend**
 
-Inicie os Microsserviços
-npm start
+1. **Clone o Repositório**  
+   ```bash
+   git clone https://github.com/seu-usuario/tempo-marica.git
+   cd tempo-marica/backend
+
