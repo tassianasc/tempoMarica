@@ -77,13 +77,14 @@ cd tempo-marica/backend
 
 **Configuração: Crie arquivos .env em cada microsserviço:**
 
-###.env.auth
-###.env.boletins
-###.env.noticias
+.env.auth
+.env.boletins
+.env.noticias
 
 **Exemplo de variáveis de ambiente:**
 
-```MONGO_URI=mongodb://seu-banco
+```
+MONGO_URI=mongodb://seu-banco
 SECRET=sua-chave-secreta
 PORT=porta-do-serviço```
 
