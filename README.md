@@ -101,7 +101,7 @@ cd tempo-marica/frontend
 
 **Abra o Frontend** Use qualquer servidor local (por exemplo, Live Server no VSCode) para rodar a aplicação. Certifique-se de que os microsserviços estejam rodando antes de acessar funcionalidades como notícias e boletins.
 
-**Execução**
+## **Execução**
 **Inicie o Backend**
 Navegue para o diretório do backend:
 ```cd backend
@@ -116,7 +116,7 @@ Utilize um servidor local ou abra o arquivo index.html diretamente em um navegad
 ```live-server ./frontend/src```
 
 ---
-**APIs Disponíveis**
+## **APIs Disponíveis**
 
 **AuthService**
 
