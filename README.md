@@ -82,9 +82,7 @@ cd tempo-marica/backend
 .env.noticias
 
 **Exemplo de variáveis de ambiente:**
-
-```
-MONGO_URI=mongodb://seu-banco
+```MONGO_URI=mongodb://seu-banco
 SECRET=sua-chave-secreta
 PORT=porta-do-serviço```
 
