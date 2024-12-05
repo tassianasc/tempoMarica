@@ -64,7 +64,7 @@ Tempo-Maricá/
 
 ```
 ## **Instalação**
-**Backend**
+## **Backend**
 Clone o Repositório:
 
 ```git clone https://github.com/seu-usuario/tempo-marica.git
@@ -91,7 +91,7 @@ PORT=porta-do-serviço
 
 ```npm start```
 
-**Frontend**
+## **Frontend**
 
 Clone o Repositório:
 
