@@ -63,30 +63,35 @@ Tempo-Maricá/
 └── README.md
 
 ```
-##Instalação
-**Backend
+## Instalação
+**Backend**
 Clone o Repositório:
 
-git clone https://github.com/seu-usuario/tempo-marica.git
+```git clone https://github.com/seu-usuario/tempo-marica.git
 cd tempo-marica/backend
+```
 
-**Instale as Dependências:
+**Instale as Dependências**
 
-npm install
-**Configuração: Crie arquivos .env em cada microsserviço:
+```npm install```
 
-.env.auth
-.env.boletins
-.env.noticias
-**Exemplo de variáveis de ambiente:
+**Configuração: Crie arquivos .env em cada microsserviço:**
 
-MONGO_URI=mongodb://seu-banco
+###.env.auth
+###.env.boletins
+###.env.noticias
+
+**Exemplo de variáveis de ambiente:**
+
+```MONGO_URI=mongodb://seu-banco
 SECRET=sua-chave-secreta
-PORT=porta-do-serviço
-**Inicie os Microsserviços:
+PORT=porta-do-serviço```
 
-npm start
-Frontend
+**Inicie os Microsserviços**
+
+```npm start```
+
+**Frontend**
 
 **Clone o Repositório:
 
