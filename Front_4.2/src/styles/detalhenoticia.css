@@ -1,0 +1,57 @@
+.container-centralizado {
+  display: block; /* Permite o rolamento */
+  margin: 100px auto 20px; /* Adiciona espaçamento no topo para evitar sobreposição do header */
+  padding: 20px;
+  max-width: 800px;
+  background-color: #ffffff; /* Fundo branco para o conteúdo */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  overflow: hidden; /* Garante que o conteúdo não extrapole */
+}
+
+.titulo-detalhe {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center; /* Centraliza o texto horizontalmente */
+  display: flex; /* Garante alinhamento em todos os navegadores */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente se necessário */
+}
+
+
+.subtitulo-detalhe {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.imagem-detalhe {
+  width: 100%; /* Imagem ocupa toda a largura */
+  max-height: 400px; /* Limita a altura máxima */
+  object-fit: cover; /* Ajusta para manter a proporção */
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+}
+
+.descricao-detalhe {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #444;
+  margin: 20px 0;
+  text-align: justify; /* Justifica o texto para melhor leitura */
+}
+
+.info-detalhe {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.info-detalhe strong {
+  color: #333;
+}

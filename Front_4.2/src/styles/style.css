@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 70px;
+  min-height: 100vh;
+  background: linear-gradient(#b2d0ff, #4a7dff); /* Cor de fundo padrão */
+  color: #000; /* Cor padrão do texto */
+}
+
+/* Fundo do header no modo claro */
+header {
+  background-color: #b2d0ff; /* Cor clara padrão */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Fundo do header no modo escuro */
+body.dark-mode header {
+  background-color: #5151dd; /* Mesmo tom do footer no modo escuro */
+  color: #e0e0e0; /* Texto claro */
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Sombra clara */
+}
+
+/* Ajuste para links no header no modo escuro */
+body.dark-mode header .nav-link {
+  color: #e0e0e0; /* Links claros */
+}
+
+body.dark-mode header .nav-link:hover {
+  color: #ffffff; /* Links ainda mais claros ao passar o mouse */
+}
+
+
+/* Modo escuro: altera apenas o fundo da página */
+body.dark-mode {
+  background: #121212; /* Cor de fundo escura */
+  color: #e0e0e0; /* Texto em tom claro */
+}
+
+/* Conteúdo central (#container) permanece original */
+#container {
+  background-color: #f0f8ff; /* Fundo claro original */
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  margin: 20px auto; /* Centraliza o container na página */
+}
+
+#search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  padding: 10px 20px; /* Aumenta o padding para melhorar o espaçamento */
+  width: 100%;
+  max-width: 350px; /* Limite a largura máxima para que o campo de busca não fique muito largo */
+}
+
+#search input {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  width: 100%;
+}
+
+#search input:focus-visible {
+  outline: none;
+}
+
+#search button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#weather {
+  display: none;
+  margin-top: 20px;
+}
+
+#weather.show {
+  display: block;
+}
+
+#weather #title {
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #372f3f;
+}
+
+body.dark-mode #weather #title {
+  color: #ddd; /* Texto mais claro */
+}
+
+#temp {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  background: linear-gradient(90deg, #5a7cdc, #606dde);
+  color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+body.dark-mode #temp {
+  background: linear-gradient(90deg, #444, #555); /* Gradiente escuro */
+}
+
+#temp_img {
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+}
+
+#temp_value {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+}
+
+#temp_description {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+#other_infos {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 17px;
+}
+
+#other_infos .info {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 4px 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  gap: 10px;
+}
+
+body.dark-mode #other_infos .info {
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2); /* Sombra clara */
+}
+
+#other_infos .info h2 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#other_infos .info i {
+  text-align: center;
+  font-size: 20px;
+  width: 20%;
+}
+
+footer {
+  background-color: #b2d0ff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode footer {
+  background-color: #5151dd; /* Fundo escuro */
+}
+
+footer p {
+  color: #fff;
+  font-size: 16px;
+}
+
+body.dark-mode footer p {
+  color: #e0e0e0; /* Texto claro */
+}
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 1rem;
+}
+
+.theme-toggle button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+#light-mode {
+  display: none;
+}
+
+body.dark-mode #light-mode {
+  display: inline;
+}
+
+body.dark-mode #dark-mode {
+  display: none;
+}
+.access-restricted {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.access-restricted .access-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  filter: brightness(0.9);
+  transition: filter 0.3s ease;
+}
+
+.access-restricted .access-icon:hover {
+  filter: brightness(1.2);
+}

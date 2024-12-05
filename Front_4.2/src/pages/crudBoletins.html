@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/styles/style.css">
+  <link rel="stylesheet" href="/src/styles/menu.css">
+  <link rel="stylesheet" href="/src/styles/crud.css">
+  <title>CRUD Boletins</title>
+</head>
+<body>
+  <main id="crud-boletins">
+    <h1>Gerenciar Boletins</h1>
+    <form id="boletim-form" enctype="multipart/form-data">
+      <label for="title">Título:</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="pdf">Arquivo PDF:</label>
+      <input type="file" id="pdf" name="pdf" accept="application/pdf" required>
+
+      <button type="submit">Criar Boletim</button>
+    </form>
+
+    <h2>Lista de Boletins</h2>
+    <ul id="boletins-list"></ul>
+  </main>
+  <script src="/src/javaScript/crudBoletins.js"></script>
+  <a href="/src/pages/dashboard.html" class="back-link">Voltar</a>
+</body>
+</html>

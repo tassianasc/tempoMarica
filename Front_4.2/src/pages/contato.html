@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/styles/style.css">
+  <link rel="stylesheet" href="/src/styles/menu.css">
+  <link rel="stylesheet" href="/src/styles/contato.css">
+  <title>Contato</title>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Entre em Contato Conosco</h2>
+    <form id="contact-form" method="POST" action="processar_contato.php">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+<script src="/src/javaScript/menu.js"></script>
+<script src="/src/javaScript/script.js"></script>
+<script src="/src/javaScript/header.js"></script>
+<script src="/src/javaScript/themeToggle.js"></script>
+<script src="/src/javaScript/contato.js"></script>
+</html>

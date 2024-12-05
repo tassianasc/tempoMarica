@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/styles/style.css">
+  <link rel="stylesheet" href="/src/styles/menu.css">
+  <link rel="stylesheet" href="/src/styles/crud.css">
+  <title>CRUD Notícias</title>
+</head>
+<body>
+  <main id="crud-noticias">
+    <h1>Gerenciar Notícias</h1>
+    <form id="noticia-form" enctype="multipart/form-data">
+      <label for="titulo">Título:</label>
+      <input type="text" id="titulo" name="titulo" required>
+
+      <label for="subtitulo">Subtítulo:</label>
+      <input type="text" id="subtitulo" name="subtitulo">
+
+      <label for="descricao">Descrição:</label>
+      <textarea id="descricao" name="descricao" rows="5" required></textarea>
+
+      <label for="autor">Autor:</label>
+      <select id="autor" name="autor" required>
+        <option value="Tássia Nascimento">Tássia Nascimento</option>
+        <option value="Mateus Chagas">Mateus Chagas</option>
+      </select>
+
+      <label for="imageUrl">Imagem:</label>
+      <input type="file" id="imageUrl" name="imageUrl" accept="image/*">
+
+      <button type="submit">Criar Notícia</button>
+    </form>
+
+    <h2>Lista de Notícias</h2>
+    <ul id="noticias-list"></ul>
+  </main>
+  <script src="/src/javaScript/crudNoticias.js"></script>
+  <a href="/src/pages/dashboard.html" class="back-link">Voltar</a>
+</body>
+</html>

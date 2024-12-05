@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/src/styles/dashboard.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Área Restrita</h1>
+
+    <div class="link-container">
+      <!-- Link para CRUD de Usuários -->
+      <a href="/src/pages/usuarios.html" class="dashboard-link">Gerenciar Usuários</a>
+
+      <!-- Link para CRUD de Notícias -->
+      <a href="/src/pages/crudNoticias.html" class="dashboard-link">Microsserviço Notícias</a>
+
+      <!-- Link para CRUD de Boletim -->
+      <a href="/src/pages/crudBoletins.html" class="dashboard-link">Microsserviço Boletim</a>
+    </div>
+
+    <button id="logout-btn" class="logout-button">Sair</button>
+  </div>
+
+  <script src="/src/javaScript/dashboard.js"></script>
+</body>
+</html>
