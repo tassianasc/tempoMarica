@@ -1,8 +1,8 @@
-#**Tempo Maricá**
+## **Tempo Maricá**
 
 Projeto para centralizar informações meteorológicas, notícias e boletins da cidade de Maricá (RJ), utilizando uma arquitetura baseada em microsserviços e um frontend moderno.
 
-Alunos: Tássia Nascimento -202212166 - Mateus Chagas: 202212170
+### Alunos: Tássia Nascimento -202212166 - Mateus Chagas: 202212170
 ---
 
 ## **Índice**
