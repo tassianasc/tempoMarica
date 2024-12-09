@@ -3,6 +3,8 @@
 Projeto para centralizar informações meteorológicas, notícias e boletins da cidade de Maricá (RJ), utilizando uma arquitetura baseada em microsserviços e um frontend moderno.
 
 #### Alunos: Tássia Nascimento -202212166 - Mateus Chagas: 202212170
+
+https://youtu.be/unZpp51TZN8
 ---
 
 ## **Índice**
